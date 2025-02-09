@@ -4,6 +4,7 @@ import Pattern_3.Pattern_3;
 import Pattern_4.Pattern_4;
 import Pattern_5.Pattern_5;
 import Pattern_6.Pattern_6;
+import Pattern_7.Pattern_7;
 
 import java.util.Scanner;
 
@@ -17,7 +18,8 @@ public class Main {
 //            new Pattern_3().displayPattern(n);
 //            new Pattern_4().displayPattern(n);
 //            new Pattern_5().displayPattern(n);
-            new Pattern_6().displayPattern(n);
+//            new Pattern_6().displayPattern(n);
+            new Pattern_7().displayPattern(n);
         } catch (Exception ex) {
             System.out.println("Exception: Something went wrong, reason: " + ex.getMessage());
         }
