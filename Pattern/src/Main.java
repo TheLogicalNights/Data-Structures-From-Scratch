@@ -1,6 +1,7 @@
 import Pattern_1.Pattern_1;
 import Pattern_2.Pattern_2;
 import Pattern_3.Pattern_3;
+import Pattern_4.Pattern_4;
 
 import java.util.Scanner;
 
@@ -11,7 +12,8 @@ public class Main {
             int n = cin.nextInt();
 //            new Pattern_1().displayPattern(n);
 //            new Pattern_2().displayPattern(n);
-            new Pattern_3().displayPattern(n);
+//            new Pattern_3().displayPattern(n);
+            new Pattern_4().displayPattern(n);
         } catch (Exception ex) {
             System.out.println("Exception: Something went wrong, reason: " + ex.getMessage());
         }
