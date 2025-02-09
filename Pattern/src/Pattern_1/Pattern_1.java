@@ -6,7 +6,7 @@ package Pattern_1;
  *            * * * * *
  *            * * * * *
  *            * * * * *
- * n = 5, m = 5
+ * n = 5
  */
 public class Pattern_1 {
     public void displayPattern(int n) {
